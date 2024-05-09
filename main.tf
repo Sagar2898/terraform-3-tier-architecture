@@ -357,10 +357,10 @@ output "lb_dns_name" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "rahamtestbycketterra7788abcdef"
+  bucket = "rahamtestbycketterra7788abcdef1234"
 
   tags = {
-    Name        = "rahamtestbycketterra7788abcdef"
+    Name        = "rahamtestbycketterra7788abcdef1234"
     Environment = "Dev"
   }
 }
