@@ -194,7 +194,7 @@ resource "aws_db_instance" "default" {
   engine_version       = "8.0.35"
   instance_class       = "db.t3.micro"
   username             = "foo"
-  password             = "Raham#123568i"
+  password             = "sagar#123568i"
   skip_final_snapshot  = true
 }
 
@@ -357,10 +357,10 @@ output "lb_dns_name" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "rahamtestbycketterra217788abcdef1234"
+  bucket = "sagartestbycketterra217788abcdef1234"
 
   tags = {
-    Name        = "rahamtestbycketterra217788abcdef1234"
+    Name        = "sagartestbycketterra217788abcdef1234"
     Environment = "Dev"
   }
 }
